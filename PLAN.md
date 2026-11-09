@@ -20,9 +20,9 @@ El agente trabaja una fase cada vez y marca las casillas al cerrarla.
 **Objetivo:** apuntar una sesión de estudio y verla en una lista. Los datos solo están en memoria, sin base de datos.
 
 **Tareas:**
-- [ ] Instalar Vitest para las pruebas unitarias.
-- [ ] Mostrar en `/` un formulario con asignatura en texto libre, fecha y duración, y debajo la lista de sesiones.
-- [ ] Validar en funciones separadas de la interfaz, que reciben "hoy" como parámetro.
+- [x] Instalar Vitest para las pruebas unitarias.
+- [x] Mostrar en `/` un formulario con asignatura en texto libre, fecha y duración, y debajo la lista de sesiones.
+- [x] Validar en funciones separadas de la interfaz, que reciben "hoy" como parámetro.
 
 **Pruebas:**
 - Unitarias de la validación: datos obligatorios, duración de 1 minuto a 24 h, minutos de 0 a 59 y fecha no futura.
